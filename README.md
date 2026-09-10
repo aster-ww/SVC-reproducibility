@@ -4,6 +4,8 @@ Code used to reproduce the analyses and figures in the SVC manuscript.
 
 Main SVC software repository: https://github.com/aster-ww/SVC
 
+Processed data and model checkpoints are available on Zenodo: https://doi.org/10.5281/zenodo.22693727
+
 ## Structure
 
 ```
