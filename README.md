@@ -6,6 +6,20 @@ Main SVC software repository: https://github.com/aster-ww/SVC
 
 Processed data and model checkpoints are available on Zenodo: https://doi.org/10.5281/zenodo.22693727
 
+## Setup
+
+Two paths are resolved from environment variables, both defaulting to two levels above the
+notebook (`../..`), which is where they sit when this repository is cloned inside the SVC tree:
+
+- `SVC_ROOT` — the main SVC repository, for `import svc` (Figures 2, 4, 5)
+- `SVC_DATA_ROOT` — the processed data from Zenodo, unpacked as `<SVC_DATA_ROOT>/<dataset>/`
+
+```bash
+git clone https://github.com/aster-ww/SVC.git
+export SVC_ROOT=/path/to/SVC
+export SVC_DATA_ROOT=/path/to/data
+```
+
 ## Structure
 
 ```
